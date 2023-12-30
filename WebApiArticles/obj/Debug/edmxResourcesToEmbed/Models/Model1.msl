@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebAPIDbModelStoreContainer" CdmEntityContainer="WebAPIDbEntities1">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="WebAPIDbModel.Article">
+        <MappingFragment StoreEntitySet="Article">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Topic" ColumnName="Topic" />
+          <ScalarProperty Name="SubTopic" ColumnName="SubTopic" />
+          <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
